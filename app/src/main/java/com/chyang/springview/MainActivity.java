@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity  implements View.OnClickList
                 mSpringView.snapToScreen(ShrinkScrollerView.SCREEN_DOWN_EXIT);
                 break;
             case R.id.up_down:
-                //mSpringView.snapToScreen(SpringView.SCREENT_UP_EXIT);
+                
                 break;
         }
     }
