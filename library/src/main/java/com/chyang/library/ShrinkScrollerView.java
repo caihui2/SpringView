@@ -57,7 +57,6 @@ public class ShrinkScrollerView extends ViewGroup {
     public void computeScroll() {
         super.computeScroll();
         if (mScroller.computeScrollOffset()) {
-            //   System.out.println("==="+mScroller.getCurrY());
             scrollTo(mScroller.getCurrX(), mScroller.getCurrY());
         }
     }
